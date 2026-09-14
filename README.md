@@ -10,10 +10,9 @@ Numerical data (primes up to 10^15) accompanying the work of **Miho Aoki** (Shim
 
 Further parts will be added.
 
-## Licenses
+## License
 
-* Text, tables, figures and data files: [CC BY 4.0](LICENSE-DATA.md).
-* Program source code: [MIT License](LICENSE-CODE.md).
+Text, tables, figures and data files: CC BY 4.0. Program source code: MIT License. See [LICENSE.md](LICENSE.md).
 
 ## References
 

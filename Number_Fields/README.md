@@ -34,10 +34,9 @@ The tabulated data — the partial Euler products and the sums π_(1/2)(x) − |
 
 The prime sums were computed with a segmented sieve of Eratosthenes in C, with compensated (Kahan) summation, on the mdx research cloud (one node, 152 threads, about 28 hours for x = 10^15). The prime-counting function π(10^k) was checked against the known values for every k ≤ 15 (π(10^15) = 29,844,570,422,669); the sums were checked against brute force at x = 10^6 and two independent implementations agree to 3·10^(−13) at every checkpoint. Details are given in the folder READMEs.
 
-## Licenses
+## License
 
-* Text, tables, figures and data files: [CC BY 4.0](../LICENSE-DATA.md).
-* Program source code: [MIT License](../LICENSE-CODE.md).
+Text, tables, figures and data files: CC BY 4.0. Program source code: MIT License. See [LICENSE.md](../LICENSE.md).
 
 ## References
 
