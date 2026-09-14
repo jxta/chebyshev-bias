@@ -6,9 +6,9 @@ Numerical data (primes up to 10^15) accompanying the work of **Miho Aoki** (Shim
 
 | Folder | Content |
 |---|---|
-| [`Number_Fields/`](Number_Fields/) | Abelian extensions of **Q** (Dirichlet characters): verification of the Deep Riemann Hypothesis (A), (B) through partial Euler products on the critical line, and verification of Chebyshev's bias — its main term (M(σ) + m(σ)) log log x and its explicit constant term. |
+| [`Number_Fields/`](Number_Fields/) | Extensions of number fields: verification of the Deep Riemann Hypothesis (A), (B) through partial Euler products on the critical line, and verification of Chebyshev's bias — its main term (M(σ) + m(σ)) log log x and its explicit constant term. |
 
-Further parts (other fields and non-abelian extensions) will be added.
+Further parts will be added.
 
 ## Licenses
 
