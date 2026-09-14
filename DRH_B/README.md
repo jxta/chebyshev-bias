@@ -1,13 +1,13 @@
-# DRH_B — the Deep Riemann Hypothesis (A), (B) and Chebyshev's bias: numerical verification
+# Number_Fields — the Deep Riemann Hypothesis (A), (B) and Chebyshev's bias: numerical verification
 
-This part of the repository accompanies the work of **Miho Aoki** (Shimane University) and **Shin-ya Koyama** (Toyo University) on Chebyshev's bias for Galois extensions of **Q** and on the Deep Riemann Hypothesis (A), (B), and contains the large-scale computations (primes up to 10^15) carried out by **Shigetoshi Yokoyama** (National Institute of Informatics). It is written so that a reader who does not use computers can follow everything except the program files.
+This part of the repository accompanies the work of **Miho Aoki** (Shimane University) and **Shin-ya Koyama** (Toyo University) on Chebyshev's bias for Galois extensions of number fields and on the Deep Riemann Hypothesis (A), (B), and contains the large-scale computations (primes up to 10^15) carried out by **Shigetoshi Yokoyama** (National Institute of Informatics). It is written so that a reader who does not use computers can follow everything except the program files.
 
 ## What is here
 
 | Folder | Content |
 |---|---|
-| [`1_partial_euler_products/`](1_partial_euler_products/) | Verification of the Deep Riemann Hypothesis DRH (B) for Artin L-functions: partial Euler products on the critical line, computed for all primes up to 10^15, compared with the conjectured limit (the existence of the limit is DRH (A)). |
-| [`2_bias/`](2_bias/) | Verification of Chebyshev's bias: the main term M(σ) log log x (Aoki–Koyama, 2023) and the explicit **constant term** (Aoki, 2026) involving L(1/2, χ), the Meissel–Mertens constant and prime-power sums. |
+| [`1_partial_euler_products/`](1_partial_euler_products/) | Verification of the Deep Riemann Hypothesis DRH (A), (B) for Artin L-functions: partial Euler products on the critical line, calculation results for all primes up to 10^15, verification of DRH (A) (convergence) and DRH (B) (convergence value). |
+| [`2_bias/`](2_bias/) | Verification of Chebyshev's bias: the main term (M(σ) + m(σ)) log log x (Aoki–Koyama, 2023) and the explicit **constant term** (Aoki, 2026) involving L(1/2, χ), the Meissel–Mertens constant and prime-power sums. |
 
 Each folder has its own `README.md` (the mathematical setting, what was computed, how to read the tables and figures), a `programs/` directory (the source code that produced the data) and one directory per field:
 
@@ -19,12 +19,12 @@ Every such directory contains a short `README.md` with the tables and figures, t
 
 ## The underlying statements (Case of abelian extensions over Q)
 
-* **DRH (A), (B)** (Aoki–Koyama, Conjecture 1.1 of [1]): for a primitive Dirichlet character χ with m = ord_(s=1/2) L(s, χ), (A) the limit lim_(x→∞) (log x)^m ∏_(p≤x) (1 − χ(p) p^(−1/2))^(−1) exists and is not 0, and (B) it equals √2^(ν(χ)) · L^((m))(1/2, χ) / (e^(mγ) m!), where ν(χ) = 1 if χ² = 1 and 0 otherwise.
-* **Chebyshev's bias (Aoki–Koyama, 2023) and with explicit constant (Aoki, 2026)**: for an abelian extension L/**Q** with Galois group G and σ ∈ G, under DRH,
+* **DRH (A), (B)** (Kimura–Koyama–Kurokawa): for a primitive Dirichlet character χ with m = ord_(s=1/2) L(s, χ), (A) the limit lim_(x→∞) (log x)^m ∏_(p≤x) (1 − χ(p) p^(−1/2))^(−1) exists and is not 0, and (B) it equals √2^(ν(χ)) · L^((m))(1/2, χ) / (e^(mγ) m!), where ν(χ) = 1 if χ² = 1 and 0 otherwise.
+* **Chebyshev's bias (Aoki–Koyama, 2023) and with explicit constant (Aoki, 2026)**: for an abelian extension L/**Q** with Galois group G and σ ∈ G, under DRH (A),
   π_(1/2)(x) − |G| π_(1/2)(x; σ) = (M(σ) + m(σ)) log log x + c + o(1)   (Theorem 2.2 of [1]),
   and the constant is
-  c = M(σ) γ + R − M(σ)(log 2 + c_**Q**) − Σ_(χ≠1) χ̄(σ) (log L(1/2, χ) − c(χ))   (Aoki, 2026),
-  where the validity of this formula for all σ is equivalent to DRH (A), (B) for the characters of G. See `2_bias/README.md` for the notation.
+  c = (M(σ) + m(σ)) γ + Σ_(p | D_L) p^(−1/2) − M(σ)(log 2 + c_**Q**) − Σ_(χ≠1) χ̄(σ) ( log( L^((m))(1/2, χ) / m! ) − c(χ) )   (Aoki, 2026)
+  under DRH (A), (B). See `2_bias/README.md` for the notation.
 
 ## How to read the numbers
 
@@ -42,5 +42,7 @@ The prime sums were computed with a segmented sieve of Eratosthenes in C, with c
 ## References
 
 [1] M. Aoki and S. Koyama, *Chebyshev's bias against splitting and principal primes in global fields*, J. Number Theory 245 (2023), 233–262.
+
 [2] K. Conrad, *Partial Euler products on the critical line*, Canad. J. Math. 57 (2005), 267–297.
+
 [3] K. Kimura, S. Koyama and N. Kurokawa, *Euler products beyond the boundary*, Lett. Math. Phys. 104 (2014), 1–19.
