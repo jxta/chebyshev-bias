@@ -1,6 +1,6 @@
 # Numerical verification of the Deep Riemann Hypothesis and of Chebyshev's bias in Galois extensions of number fields
 
-Numerical data (primes up to 10^15) accompanying the work of **Miho Aoki** (Shimane University) and **Shin-ya Koyama** (Toyo University) on Chebyshev's bias for Galois extensions of number fields and on the Deep Riemann Hypothesis (A), (B) [1], [3]. The computations were carried out by **Shigetoshi Yokoyama** (National Institute of Informatics). The README files are written so that a reader who does not use computers can follow everything except the program files.
+Numerical data (primes up to 10^15) verifying the results of **Miho Aoki** (Shimane University) and **Shin-ya Koyama** (Toyo University) on Chebyshev's bias for Galois extensions of number fields and on the Deep Riemann Hypothesis (A), (B) [1], [3]. These pages are written and maintained by **Miho Aoki** and **Shigetoshi Yokoyama** (National Institute of Informatics); the computations were carried out by Shigetoshi Yokoyama. The README files are written so that a reader who does not use computers can follow everything except the program files.
 
 ## Contents
 
