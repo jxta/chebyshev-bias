@@ -4,7 +4,7 @@
 
 | Folder | Content |
 |---|---|
-| [`1_partial_euler_products/`](1_partial_euler_products/) | Verification of the Deep Riemann Hypothesis DRH (A), (B) for Artin L-functions: partial Euler products on the critical line, calculation results for all primes up to 10^15, verification of DRH (A) (convergence) and DRH (B) (convergence value). |
+| [`1_partial_euler_products/`](1_partial_euler_products/) | Verification of the Deep Riemann Hypothesis DRH (A), (B) for Dirichlet L-functions: partial Euler products on the critical line, calculation results for all primes up to 10^15, verification of DRH (A) (convergence) and DRH (B) (convergence value). |
 | [`2_bias/`](2_bias/) | Verification of Chebyshev's bias: the main term (M(σ) + m(σ)) log log x (Aoki–Koyama, 2023) and the explicit **constant term** (Aoki, 2026) involving L(1/2, χ), the Meissel–Mertens constant and prime-power sums. |
 
 Each folder has its own `README.md` (the mathematical setting, what was computed, how to read the tables and figures), a `programs/` directory (the source code that produced the data) and one directory per field:

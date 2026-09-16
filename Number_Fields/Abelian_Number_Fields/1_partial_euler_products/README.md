@@ -1,6 +1,6 @@
-# 1. Verification of the Deep Riemann Hypothesis (B) for Artin L-functions
+# 1. Verification of the Deep Riemann Hypothesis (B) for Dirichlet L-functions
 
-The fields in this folder are abelian extensions of **Q**, where the Artin L-functions are Dirichlet L-functions; other cases will be added.
+The fields in this folder are abelian extensions of **Q** and Dirichlet L-functions.
 
 ## 1.1 Setting
 
@@ -8,7 +8,7 @@ Let χ be a primitive Dirichlet character modulo N and
 
 L(s, χ) = ∏_p (1 − χ(p) p^(−s))^(−1)   (Re s > 1),  with χ(p) = 0 for p | N,
 
-its Dirichlet L-function. Put m = ord_(s=1/2) L(s, χ) (for Dirichlet characters m = 0 is conjectured and is true in every case treated here). The **Deep Riemann Hypothesis** (Aoki–Koyama [1], Conjecture 1.1) asserts:
+its Dirichlet L-function. Put m = ord_(s=1/2) L(s, χ) (for Dirichlet characters m = 0 is conjectured (Chowla conjecture) and is true in every case treated here). The **Deep Riemann Hypothesis** (Kimura–Koyama–Kurokawa [3], Conjecture 2; see also Aoki–Koyama [1], Conjecture 1.1) asserts:
 
 * **(A)** the limit lim_(x→∞) (log x)^m ∏_(p≤x) (1 − p^(−1/2) χ(p))^(−1) exists and is not 0;
 * **(B)** the limit equals √2^(ν(χ)) · L^((m))(1/2, χ) / (e^(mγ) m!), where ν(χ) = 1 if χ² = 1 and ν(χ) = 0 otherwise, and γ is Euler's constant.
@@ -32,7 +32,7 @@ The primes were generated with a segmented sieve of Eratosthenes (program `drh_s
 ## 1.3 How to read the tables and figures
 
 * The tables list P_χ(x) at x = 10^5, …, 10^15 together with the conjectured limit. The values are finite products over the primes p ≤ x, computed exactly (about 13 significant digits are reliable; 12 decimals are printed so that they can be reproduced and compared). They should be read as a *sequence approaching the limit*, not as approximations of the limit to 12 digits.
-* The approach to the limit is **slow and oscillating**: under DRH the relative error decays like 1/log x (with an oscillating factor coming from the zeros of L(s, χ)), so between x = 10^5 and x = 10^15 the size of the error only shrinks by a factor of about 3, and it does not decrease monotonically. At x = 10^15 an agreement of a few parts in a thousand is what the conjecture predicts. The figures show this behaviour: the curve oscillates around the dashed line (the conjectured limit) inside a slowly narrowing envelope.
+* The approach to the limit is **slow and oscillating**: under DRH the relative error is assumed to decay like 1/log x, so between x = 10^5 and x = 10^15 the size of the error only shrinks by a factor of about 3, and it does not decrease monotonically. At x = 10^15 an agreement of a few parts in a thousand is what this assumption suggests. The figures show this behaviour: the curve oscillates around the dashed line (the conjectured limit) inside a slowly narrowing envelope.
 * For a complex character the product is a complex number, and the table lists real and imaginary parts.
 
 ## 1.4 Checks
@@ -53,5 +53,7 @@ The primes were generated with a segmented sieve of Eratosthenes (program `drh_s
 ## References
 
 [1] M. Aoki and S. Koyama, Chebyshev's bias against splitting and principal primes in global fields, J. Number Theory 245 (2023), 233–262.
+
 [2] K. Conrad, Partial Euler products on the critical line, Canad. J. Math. 57 (2005), 267–297.
+
 [3] K. Kimura, S. Koyama and N. Kurokawa, Euler products beyond the boundary, Lett. Math. Phys. 104 (2014), 1–19.
