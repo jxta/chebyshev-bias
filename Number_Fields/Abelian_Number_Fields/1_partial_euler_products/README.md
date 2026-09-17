@@ -1,4 +1,4 @@
-# 1. Verification of the Deep Riemann Hypothesis (B) for Dirichlet L-functions
+# 1. Verification of the Deep Riemann Hypothesis (A), (B) for Dirichlet L-functions
 
 The fields in this folder are abelian extensions of **Q** and Dirichlet L-functions.
 

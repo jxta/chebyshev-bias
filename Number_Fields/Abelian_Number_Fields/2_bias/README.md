@@ -6,17 +6,17 @@ Let L/**Q** be a finite abelian extension with Galois group G, and for a prime p
 
 π_(1/2)(x) = Σ_(p≤x) p^(−1/2),   π_(1/2)(x; σ) = Σ_(p≤x, Frob_p = σ) p^(−1/2)   (σ ∈ G).
 
-**Main term (Aoki–Koyama, 2023).** Theorem 2.2 of [1] states that under the Deep Riemann Hypothesis, for every σ ∈ G there is a constant c such that
+**Main term (Aoki–Koyama, 2023).** Theorem 2.2 of [1] states that under the Deep Riemann Hypothesis, for every σ ∈ G there is a constant c(σ) such that
 
-π_(1/2)(x) − |G| π_(1/2)(x; σ) = (M(σ) + m(σ)) log log x + c + o(1)   (x → ∞),
+π_(1/2)(x) − |G| π_(1/2)(x; σ) = (M(σ) + m(σ)) log log x + c(σ) + o(1)   (x → ∞),
 
 where M(σ) = ½ Σ_(ρ≠1) χ_ρ(σ) ν(ρ) is computed from the character table of G and m(σ) from the orders of vanishing of the L-functions at s = 1/2 (m(σ) = 0 in the fields treated here). The primes with Frob_p = σ appear "late" when M(σ) + m(σ) > 0 and "early" when it is negative.
 
 **Constant term (Aoki, 2026).** For abelian G, all representations are irreducible and 1-dimensional.
 
-**π_(1/2)(x) − |G| π_(1/2)(x; σ) = (M(σ) + m(σ)) log log x + c + o(1),** and the constant is
+**π_(1/2)(x) − |G| π_(1/2)(x; σ) = (M(σ) + m(σ)) log log x + c(σ) + o(1),** and the constant is
 
-**c = (M(σ) + m(σ)) γ + R − M(σ)(log 2 + c_Q) − Σ_(ρ≠1) ρ̄(σ) ( log( L^((m))(1/2, ρ) / m! ) − c(ρ) ),**
+**c(σ) := (M(σ) + m(σ)) γ + R − M(σ)(log 2 + c_Q) − Σ_(ρ≠1) ρ̄(σ) ( log( L^((m))(1/2, ρ) / m! ) − c(ρ) ),**
 
 and this statement (for all σ ∈ G) is *equivalent* to DRH (A) and (B) for all representations ρ ≠ 1 of G. The notation:
 
@@ -26,11 +26,7 @@ and this statement (for all σ ∈ G) is *equivalent* to DRH (A) and (B) for all
 * **c(ρ)** is determined by ρ; this includes infinite sums which converge absolutely;
 * ρ̄(σ) is the complex conjugate of ρ(σ).
 
-The theoretical constant is therefore
-
-**c(σ) := (M(σ) + m(σ)) γ + R − M(σ)(log 2 + c_Q) − Σ_(ρ≠1) ρ̄(σ) ( log( L^((m))(1/2, ρ) / m! ) − c(ρ) ),**
-
-known to many digits, and the theorem says that the **data constant**
+The theoretical constant c(σ) is therefore known to many digits, and the theorem says that the **data constant**
 
 **D_σ(x) := π_(1/2)(x) − |G| π_(1/2)(x; σ) − (M(σ) + m(σ)) log log x**
 

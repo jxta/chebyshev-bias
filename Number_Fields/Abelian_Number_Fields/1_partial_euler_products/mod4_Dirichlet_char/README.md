@@ -1,4 +1,4 @@
-# The character mod 4 — the Gaussian field **Q**(i)
+# The character mod 4
 
 χ is the primitive Dirichlet character modulo 4:
 

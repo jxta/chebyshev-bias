@@ -1,12 +1,12 @@
 # L = **Q**(i), G = Gal(L/**Q**) = {σ1, σ−1}
 
-Here σ1 is the identity and σ−1 is complex conjugation (σ−1(i) = −i). A prime p ≠ 2 has Frob_p = σ1 if p ≡ 1 (mod 4) and Frob_p = σ−1 if p ≡ 3 (mod 4); the prime 2 is ramified, so R = 1/√2. The only non-trivial character of G is the character χ mod 4 (χ(σ1) = 1, χ(σ−1) = −1), which is real, and M(σ1) = 1/2, M(σ−1) = −1/2: primes ≡ 1 mod 4 appear "late", primes ≡ 3 mod 4 "early".
+Here σ1 is the identity and σ−1 is complex conjugation (σ−1(i) = −i). A prime p ≠ 2 has Frob_p = σ1 if p ≡ 1 (mod 4) and Frob_p = σ−1 if p ≡ 3 (mod 4); the prime 2 is ramified, so R = 1/√2. The only non-trivial irreducible character ρ of G is one-dimensional such that ρ(σ1) = 1, ρ(σ−1) = −1, which is real, and M(σ1) = 1/2, M(σ−1) = −1/2, m(σ1) = m(σ−1) = 0. If we identify ρ with a Dirichlet character χ modulo 4, then the Artin L-function for ρ coincides with the Dirichlet L-function for χ.
 
 The theorem reads, for σ ∈ {σ1, σ−1},
 
-**π_(1/2)(x) − 2 π_(1/2)(x; σ) = M(σ)(log log x + γ) + 1/√2 − M(σ)(log 2 + c_Q) − χ(σ)( log L(1/2, χ) − c(χ) ) + o(1),**
+**π_(1/2)(x) − 2 π_(1/2)(x; σ) = M(σ) log log x + c(σ) + o(1),**
 
-with c_Q = − Σ_p (1/p + log(1 − 1/p)) and c(χ) = −1/4 + Σ_(k≥3) Σ_p χ(p^k) / (k p^(k/2)).
+with c(σ) = M(σ) γ + R − M(σ)(log 2 + c_Q) − χ̄(σ) ( log L(1/2, χ) − c(χ) ), c_Q = − Σ_p (1/p + log(1 − 1/p)) and c(χ) = −1/4 + Σ_(k≥3) Σ_p χ(p^k) / (k p^(k/2)).
 
 ## Constants
 
