@@ -47,8 +47,8 @@ The primes were generated with a segmented sieve of Eratosthenes (program `drh_s
 | Directory | Field / characters | Status |
 |---|---|---|
 | [`mod4_Dirichlet_char/`](mod4_Dirichlet_char/) | **Q**(i): the character mod 4 | complete (x ≤ 10^15) |
-| `mod5_Dirichlet_char/` | **Q**(ζ5): characters mod 5 | to be added |
-| `mod8_Dirichlet_char/` | **Q**(ζ8): characters mod 8 | to be added |
+| [`mod5_Dirichlet_char/`](mod5_Dirichlet_char/) | **Q**(ζ5): characters mod 5 | complete (x ≤ 10^15) |
+| [`mod8_Dirichlet_char/`](mod8_Dirichlet_char/) | **Q**(ζ8): characters mod 8 | complete (x ≤ 10^15) |
 
 ## References
 

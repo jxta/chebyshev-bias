@@ -10,8 +10,8 @@
 Each folder has its own `README.md` (the mathematical setting, what was computed, how to read the tables and figures), a `programs/` directory (the source code that produced the data) and one directory per field:
 
 * `mod4_Dirichlet_char/` — the Gaussian field **Q**(i), character mod 4
-* `mod5_Dirichlet_char/` — the field **Q**(ζ5), characters mod 5 (to be added)
-* `mod8_Dirichlet_char/` — the field **Q**(ζ8), characters mod 8 (to be added)
+* `mod5_Dirichlet_char/` — the field **Q**(ζ5), characters mod 5 (1_partial_euler_products only, for now)
+* `mod8_Dirichlet_char/` — the field **Q**(ζ8), characters mod 8 (1_partial_euler_products only, for now)
 
 Every such directory contains a short `README.md` with the tables and figures, the figure files (`.svg`, `.png`) and `.csv` files with the full data (128 checkpoints per decade of x).
 
