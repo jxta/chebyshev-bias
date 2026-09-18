@@ -1,12 +1,12 @@
 # L = **Q(ζ5)**, G = Gal(L/**Q**) = {σ1, σ2, σ3, σ4}
 
-σa is the automorphism ζ5 ↦ ζ5^a, and a prime p ≠ 5 has Frob_p = σa exactly when p ≡ a (mod 5); the prime 5 is ramified, so R = Σ_(p|D_L) p^(−1/2) = 1/√5. The non-trivial irreducible characters of G are one-dimensional: ρ₂ with ρ₂(σ1) = 1, ρ₂(σ2) = i, ρ₂(σ3) = −i, ρ₂(σ4) = −1; ρ₃ = conj ρ₂; and ρ₄ = ρ₂² with ρ₄(σ1) = ρ₄(σ4) = 1, ρ₄(σ2) = ρ₄(σ3) = −1, which is real. Since only ρ₄ is real, M(σ) = ½ ρ₄(σ): **M(σ1) = M(σ4) = 1/2, M(σ2) = M(σ3) = −1/2**, and m(σ) = 0 for all σ. If we identify ρ₂, ρ₃, ρ₄ with the Dirichlet characters χ₂, χ₃, χ₄ modulo 5 of `1_partial_euler_products/mod5_Dirichlet_char/`, then the Artin L-functions for ρ₂, ρ₃, ρ₄ coincide with the Dirichlet L-functions for χ₂, χ₃, χ₄.
+σa is the automorphism ζ5 ↦ ζ5^a, and a prime p ≠ 5 has Frob_p = σa exactly when p ≡ a (mod 5); the prime 5 is ramified, so R = Σ_(p|D_L) p^(−1/2) = 1/√5. The non-trivial irreducible characters of G are one-dimensional: ρ₂ with ρ₂(σ1) = 1, ρ₂(σ2) = i, ρ₂(σ3) = −i, ρ₂(σ4) = −1; ρ₃ = conj ρ₂; and ρ₄ = ρ₂² with ρ₄(σ1) = ρ₄(σ4) = 1, ρ₄(σ2) = ρ₄(σ3) = −1, which is real. **M(σ1) = M(σ4) = 1/2, M(σ2) = M(σ3) = −1/2**, and m(σ) = 0 for all σ. If we identify ρ₂, ρ₃, ρ₄ with the Dirichlet characters χ₂, χ₃, χ₄ modulo 5 of `1_partial_euler_products/mod5_Dirichlet_char/`, then the Artin L-functions for ρ₂, ρ₃, ρ₄ coincide with the Dirichlet L-functions for χ₂, χ₃, χ₄.
 
 The theorem reads, for σ ∈ G,
 
 **π_(1/2)(x) − 4 π_(1/2)(x; σ) = M(σ) log log x + c(σ) + o(1),**
 
-with c(σ) = M(σ) γ + R − M(σ)(log 2 + c_Q) − Σ_(χ = χ₂, χ₃, χ₄) χ̄(σ)( log L(1/2, χ) − c(χ) ), c_Q = − Σ_p (1/p + log(1 − 1/p)), c(χ₄) = −1/10 + Σ_(k≥3) Σ_p χ₄(p^k)/(k p^(k/2)) and, for the complex characters, c(χ₂) = ½ Σ_p χ₄(p)/p + Σ_(k≥3) Σ_p χ₂(p^k)/(k p^(k/2)), c(χ₃) = conj c(χ₂). The coefficient of log L(1/2, χ) − c(χ) is the complex conjugate χ̄(σ) = χ(σ)^(−1); for the real character χ₄ it is χ₄(σ).
+with c(σ) = M(σ) γ + R − M(σ)(log 2 + c_Q) − Σ_(χ = χ₂, χ₃, χ₄) χ̄(σ)( log L(1/2, χ) − c(χ) ), c_Q = − Σ_p (1/p + log(1 − 1/p)), c(χ₄) = −1/10 + Σ_(k≥3) Σ_p χ₄(p^k)/(k p^(k/2)) and, for the complex characters, c(χ₂) = ½ Σ_p χ₄(p)/p + Σ_(k≥3) Σ_p χ₂(p^k)/(k p^(k/2)), c(χ₃) = conj c(χ₂). The coefficient of log L(1/2, χ) − c(χ) is the complex conjugate χ̄(σ) = χ(σ)^(−1).
 
 ## Constants
 
@@ -14,7 +14,7 @@ with c(σ) = M(σ) γ + R − M(σ)(log 2 + c_Q) − Σ_(χ = χ₂, χ₃, χ�
 |---|---|
 | L(1/2, χ₂) = conj L(1/2, χ₃) | 0.763747880117 + 0.216964767519 i |
 | L(1/2, χ₄) | 0.231750947504016 |
-| m(χ₂) = m(χ₃) = m(χ₄) = ord_(s=1/2) L(s, χ) | 0 |
+| m(χ₂) = m(χ₃) = m(χ₄) = ord_(s=1/2) L(s, χᵢ) | 0 |
 | lowest non-trivial zero of L(s, χ₂): s = 1/2 + i γ1 (for χ₃ the sign of γ1 is reversed) | γ1 = -4.1329037052 |
 | lowest non-trivial zero of L(s, χ₄): s = 1/2 ± i γ1 | γ1 = 6.6484533447 |
 | c_Q = γ − M_Mertens | 0.3157184520539 |

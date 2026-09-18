@@ -1,6 +1,6 @@
 # L = **Q(ζ8)**, G = Gal(L/**Q**) = {σ1, σ3, σ5, σ7}
 
-σa is the automorphism ζ8 ↦ ζ8^a, and an odd prime p has Frob_p = σa exactly when p ≡ a (mod 8); the prime 2 is ramified, so R = Σ_(p|D_L) p^(−1/2) = 1/√2. The non-trivial irreducible characters of G are one-dimensional and real: ρ₂, ρ₃, ρ₄ with (ρ₂, ρ₃, ρ₄)(σ1) = (1, 1, 1), (σ3) = (−1, 1, −1), (σ5) = (1, −1, −1), (σ7) = (−1, −1, 1). Hence M(σ) = ½ (ρ₂(σ) + ρ₃(σ) + ρ₄(σ)): **M(σ1) = 3/2, M(σ3) = M(σ5) = M(σ7) = −1/2**, and m(σ) = 0 for all σ. If we identify ρ₂, ρ₃, ρ₄ with the Dirichlet characters χ₂, χ₃, χ₄ modulo 8 of `1_partial_euler_products/mod8_Dirichlet_char/`, then the Artin L-functions for ρ₂, ρ₃, ρ₄ coincide with the Dirichlet L-functions for χ₂, χ₃, χ₄.
+σa is the automorphism ζ8 ↦ ζ8^a, and an odd prime p has Frob_p = σa exactly when p ≡ a (mod 8); the prime 2 is ramified, so R = Σ_(p|D_L) p^(−1/2) = 1/√2. The non-trivial irreducible characters of G are one-dimensional and real: ρ₂, ρ₃, ρ₄ with (ρ₂, ρ₃, ρ₄)(σ1) = (1, 1, 1), (σ3) = (−1, 1, −1), (σ5) = (1, −1, −1), (σ7) = (−1, −1, 1). **M(σ1) = 3/2, M(σ3) = M(σ5) = M(σ7) = −1/2**, and m(σ) = 0 for all σ. If we identify ρ₂, ρ₃, ρ₄ with the Dirichlet characters χ₂, χ₃, χ₄ modulo 8 of `1_partial_euler_products/mod8_Dirichlet_char/`, then the Artin L-functions for ρ₂, ρ₃, ρ₄ coincide with the Dirichlet L-functions for χ₂, χ₃, χ₄.
 
 The theorem reads, for σ ∈ G,
 
@@ -13,7 +13,7 @@ with c(σ) = M(σ) γ + R − M(σ)(log 2 + c_Q) − Σ_(χ = χ₂, χ₃, χ�
 | quantity | value |
 |---|---|
 | L(1/2, χ₂), L(1/2, χ₃), L(1/2, χ₄) | 0.667691457190, 1.100421409526, 0.373691712913 |
-| m(χ₂) = m(χ₃) = m(χ₄) = ord_(s=1/2) L(s, χ) | 0 |
+| m(χ₂) = m(χ₃) = m(χ₄) = ord_(s=1/2) L(s, χᵢ) | 0 |
 | lowest non-trivial zero s = 1/2 ± i γ1 of L(s, χ₂), L(s, χ₃), L(s, χ₄) | γ1 = 6.0209489047, 3.5761548368, 4.8999739970 |
 | c_Q = γ − M_Mertens | 0.3157184520539 |
 | c(χ₂), c(χ₃), c(χ₄) = −1/4 + Σ_(k≥3) Σ_p χ(p^k)/(k p^(k/2)) | -0.2596340772, -0.1576547473, -0.2997407758 |
