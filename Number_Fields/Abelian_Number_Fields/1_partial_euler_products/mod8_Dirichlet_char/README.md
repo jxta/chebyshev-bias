@@ -4,26 +4,26 @@ The Dirichlet characters modulo 8 are:
 
 | a mod 8 | 1 | 3 | 5 | 7 | conductor | |
 |---|---|---|---|---|---|---|
-| χ1(a) | 1 | 1 | 1 | 1 | 1 | trivial, not primitive |
-| χ2(a) | 1 | −1 | 1 | −1 | 4 | not primitive mod 8 (it is the character mod 4 of `mod4_Dirichlet_char/`) |
-| χ3(a) | 1 | 1 | −1 | −1 | 8 | primitive; χ3(p) = (−2/p), the character of **Q**(√−2) |
-| χ4(a) | 1 | −1 | −1 | 1 | 8 | primitive; χ4(p) = (2/p), the character of **Q**(√2) |
+| χ₁(a) | 1 | 1 | 1 | 1 | 1 | trivial, not primitive |
+| χ₂(a) | 1 | −1 | 1 | −1 | 4 | not primitive mod 8 (it is the character mod 4 of `mod4_Dirichlet_char/`) |
+| χ₃(a) | 1 | 1 | −1 | −1 | 8 | primitive; χ₃(p) = (−2/p), the character of **Q**(√−2) |
+| χ₄(a) | 1 | −1 | −1 | 1 | 8 | primitive; χ₄(p) = (2/p), the character of **Q**(√2) |
 
-(χi(a) = 0 for even a.) For i = 2, 3, 4 one has m = ord_(s=1/2) L(s, χi) = 0 and χi² = 1, so ν(χi) = 1 and DRH (B) states
+(χᵢ(a) = 0 for even a.) For i = 2, 3, 4 one has m = ord_(s=1/2) L(s, χᵢ) = 0 and χᵢ² = 1, so ν(χᵢ) = 1 and DRH (B) states
 
-**lim_(x→∞) ∏_(p≤x) (1 − p^(−1/2) χi(p))^(−1) = √2 · L(1/2, χi)  (i = 2, 3, 4).**
+**lim_(x→∞) ∏_(p≤x) (1 − p^(−1/2) χᵢ(p))^(−1) = √2 · L(1/2, χᵢ)  (i = 2, 3, 4).**
 
-| character | L(1/2, χi) | limit √2 · L(1/2, χi) |
+| character | L(1/2, χᵢ) | limit √2 · L(1/2, χᵢ) |
 |---|---|---|
-| χ2 | 0.667691457189609 | 0.944258314238200 |
-| χ3 | 1.100421409525548 | 1.556230881676749 |
-| χ4 | 0.373691712912547 | 0.528479888547358 |
+| χ₂ | 0.667691457189609 | 0.944258314238200 |
+| χ₃ | 1.100421409525548 | 1.556230881676749 |
+| χ₄ | 0.373691712912547 | 0.528479888547358 |
 
-Since χ2(p) coincides with the character mod 4 for every prime p, its partial Euler products are exactly the numbers of `mod4_Dirichlet_char/`; they are repeated here for completeness.
+Since χ₂(p) coincides with the character mod 4 for every prime p, its partial Euler products are exactly the numbers of `mod4_Dirichlet_char/`.
 
-## Table: partial Euler products ∏_(p≤x) (1 − p^(−1/2) χi(p))^(−1)
+## Table: partial Euler products ∏_(p≤x) (1 − p^(−1/2) χᵢ(p))^(−1)
 
-| x | χ2 | χ3 | χ4 |
+| x | χ₂ | χ₃ | χ₄ |
 |---|---|---|---|
 | 10^5 | 0.971672466921 | 1.685951012326 | 0.548054790262 |
 | 10^6 | 0.887749562976 | 1.561725571103 | 0.546460764605 |
@@ -43,4 +43,4 @@ Since χ2(p) coincides with the character mod 4 for every prime p, its partial E
 
 ![partial Euler products, characters mod 8](fig_mod8.svg)
 
-Each panel shows the partial Euler product of one character with its conjectured limit √2 L(1/2, χi) (dashed). The curves oscillate around the limits inside envelopes that narrow like 1/log x; at x = 10^15 the products differ from their limits by 0.13 % (χ2), 1.74 % (χ3) and 0.44 % (χ4).
+Each panel shows the partial Euler product of one character with its conjectured limit √2 L(1/2, χᵢ) (dashed). The curves oscillate around the limits inside envelopes that narrow like 1/log x; at x = 10^15 the products differ from their limits by 0.13 % (χ₂), 1.74 % (χ₃) and 0.44 % (χ₄).
