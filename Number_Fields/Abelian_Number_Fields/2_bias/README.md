@@ -57,8 +57,8 @@ Each field's README also lists the values of L(1/2, ρ), the orders of vanishing
 | Directory | Field / group | Status |
 |---|---|---|
 | [`mod4_Dirichlet_char/`](mod4_Dirichlet_char/) | **Q**(i), G = {σ1, σ−1} | complete (x ≤ 10^15) |
-| `mod5_Dirichlet_char/` | **Q**(ζ5), G = {σ1, σ2, σ3, σ4} | to be added |
-| `mod8_Dirichlet_char/` | **Q**(ζ8), G = {σ1, σ3, σ5, σ7} | to be added |
+| [`mod5_Dirichlet_char/`](mod5_Dirichlet_char/) | **Q**(ζ5), G = {σ1, σ2, σ3, σ4} | complete (x ≤ 10^15) |
+| [`mod8_Dirichlet_char/`](mod8_Dirichlet_char/) | **Q**(ζ8), G = {σ1, σ3, σ5, σ7} | complete (x ≤ 10^15) |
 
 ## Reference
 
