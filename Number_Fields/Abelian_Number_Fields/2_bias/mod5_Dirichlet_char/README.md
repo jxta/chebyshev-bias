@@ -57,6 +57,6 @@ The thin curves are π_(1/2)(x) − 4π_(1/2)(x; σa) for the four classes, 10^3
 
 ![data constants](fig_constants_mod5.svg)
 
-The curves are the data constants D_σ(x) for the four classes; the dashed lines are the theoretical constants c(σa). Each curve oscillates around its own constant inside an envelope that narrows like 1/log x.
+The curves are the data constants D_σ(x) for the four classes; the thick orange lines are the theoretical constants c(σa). Each curve oscillates around its own constant inside an envelope that narrows like 1/log x.
 
 The pair σ2, σ3 (primes ≡ 2 and ≡ 3 mod 5) is not symmetric: the two constants differ by 2 Im( log L(1/2, χ₂) − c(χ₂) ), which is where the complex characters enter.

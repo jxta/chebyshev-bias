@@ -52,4 +52,4 @@ The thin curves are π_(1/2)(x) − 2π_(1/2)(x; σ) for σ1 (black, primes ≡ 
 
 ![data constants, Q(i)](fig_constants_mod4.svg)
 
-The curves are the data constants D_(σ1)(x) (black) and D_(σ−1)(x) (grey); the dashed lines are c(σ1) = 0.6355768… and c(σ−1) = 0.7786367…. Each curve oscillates around its limit inside an envelope that narrows like 1/log x; the slowest oscillation, with period 2π/γ1 ≈ 1.04 in log x (about 0.45 decades), comes from the lowest zero γ1 = 6.0209… of L(s, χ).
+The curves are the data constants D_(σ1)(x) (black) and D_(σ−1)(x) (grey); the thick orange lines are c(σ1) = 0.6355768… and c(σ−1) = 0.7786367…. Each curve oscillates around its limit inside an envelope that narrows like 1/log x; the slowest oscillation, with period 2π/γ1 ≈ 1.04 in log x (about 0.45 decades), comes from the lowest zero γ1 = 6.0209… of L(s, χ).

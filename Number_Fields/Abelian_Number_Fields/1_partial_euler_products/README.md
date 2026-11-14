@@ -32,7 +32,7 @@ The primes were generated with a segmented sieve of Eratosthenes (program `drh_s
 ## 1.3 How to read the tables and figures
 
 * The tables list P_χ(x) at x = 10^5, …, 10^15 together with the conjectured limit. The values are finite products over the primes p ≤ x, computed exactly (about 13 significant digits are reliable; 12 decimals are printed so that they can be reproduced and compared). They should be read as a *sequence approaching the limit*, not as approximations of the limit to 12 digits.
-* The approach to the limit is **slow and oscillating**: under DRH the relative error is assumed to decay like 1/log x, so between x = 10^5 and x = 10^15 the size of the error only shrinks by a factor of about 3, and it does not decrease monotonically. At x = 10^15 an agreement of a few parts in a thousand is what this assumption suggests. The figures show this behaviour: the curve oscillates around the dashed line (the conjectured limit) inside a slowly narrowing envelope.
+* The approach to the limit is **slow and oscillating**: under DRH the relative error is assumed to decay like 1/log x, so between x = 10^5 and x = 10^15 the size of the error only shrinks by a factor of about 3, and it does not decrease monotonically. At x = 10^15 an agreement of a few parts in a thousand is what this assumption suggests. The figures show this behaviour: the curve oscillates around the thick orange line (the conjectured limit) inside a slowly narrowing envelope.
 * For a complex character the product is a complex number, and the table lists real and imaginary parts.
 
 ## 1.4 Checks

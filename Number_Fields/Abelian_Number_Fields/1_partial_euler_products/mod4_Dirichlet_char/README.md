@@ -34,4 +34,4 @@ With L(1/2, χ) = 0.667691457189609 the conjectured limit is
 
 ![partial Euler product, character mod 4](fig_mod4.svg)
 
-The curve is the partial Euler product for 10^3 ≤ x ≤ 10^15; the dashed line is the conjectured limit √2 L(1/2, χ) = 0.944258314…. The curve oscillates around the limit with an envelope that narrows roughly like 1/log x; at x = 10^15 the value 0.945443536080 differs from the limit by 0.13 %.
+The curve is the partial Euler product for 10^3 ≤ x ≤ 10^15; the thick orange line is the conjectured limit √2 L(1/2, χ) = 0.944258314…. The curve oscillates around the limit with an envelope that narrows roughly like 1/log x; at x = 10^15 the value 0.945443536080 differs from the limit by 0.13 %.

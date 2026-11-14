@@ -48,7 +48,7 @@ Each field's README also lists the values of L(1/2, ρ), the orders of vanishing
 
 ## 2.3 How to read the tables and figures
 
-* The left-hand side grows like (M(σ) + m(σ)) log log x; in figure 1 the theoretical law (dashed) runs through the data without any adjustable parameter. The data constant removes this growth and should settle at c(σ) (figure 2).
+* The left-hand side grows like (M(σ) + m(σ)) log log x; in figure 1 the theoretical law (thick orange line) runs through the data without any adjustable parameter. The data constant removes this growth and should settle at c(σ) (figure 2).
 * The convergence is slow: empirically, D_σ(x) − c(σ) oscillates with an envelope of size about 1.2/log x (± 0.035 at x = 10^15). So the data constants agree with c(σ) to two or three decimals, while c(σ) itself is known to ten. This is the expected behaviour, not a deficiency of the computation: the oscillation is expected to come from the low-lying zeros of L(s, ρ) on the critical line — the leading oscillation has period 2π/γ1 in log x.
 * Since Σ_σ π_(1/2)(x; σ) = π_(1/2)(x) − R, the left-hand sides for the different σ are not independent; their sum is |G|·R for every x, and Σ_σ c(σ) = |G|·R. For a quadratic field the two data constants are mirror images of each other around R.
 

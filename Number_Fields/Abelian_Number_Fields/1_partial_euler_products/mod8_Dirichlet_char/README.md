@@ -43,4 +43,4 @@ Since χ₂(p) coincides with the character mod 4 for every prime p, its partial
 
 ![partial Euler products, characters mod 8](fig_mod8.svg)
 
-Each panel shows the partial Euler product of one character with its conjectured limit √2 L(1/2, χᵢ) (dashed). The curves oscillate around the limits inside envelopes that narrow like 1/log x; at x = 10^15 the products differ from their limits by 0.13 % (χ₂), 1.74 % (χ₃) and 0.44 % (χ₄).
+Each panel shows the partial Euler product of one character with its conjectured limit √2 L(1/2, χᵢ) (thick orange line). The curves oscillate around the limits inside envelopes that narrow like 1/log x; at x = 10^15 the products differ from their limits by 0.13 % (χ₂), 1.74 % (χ₃) and 0.44 % (χ₄).
